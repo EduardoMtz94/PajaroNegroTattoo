@@ -7,9 +7,6 @@
 .team-grids {
     padding: 0!important;
 }
-.team-grids:nth-child(2),.team-grids:nth-child(4) {
-    padding-top: 2em!important;
-}
 .thumbnail.team-w3agile {
     position: relative;
     overflow: hidden;
@@ -29,8 +26,8 @@
     letter-spacing: 1px;
 }
 .caption p {
-     font-size: 15px;
-    color: #fff !important;
+    font-size: 15px;
+    color: #000 !important;
     line-height: 30px;
     letter-spacing: 1px;
 }
@@ -42,13 +39,14 @@
     bottom: -227px;
     margin: 0;
     left: 0;
-       background: rgba(232, 51, 16, 0.84);
+    background: #fff;
     padding: 1em;
     -webkit-transition: .5s all;
     transition: .5s all;
     -moz-transition: .5s all;
     width: 100%;
     text-align: center;
+    opacity: 0.75;
 }
 .thumbnail.team-w3agile:hover div.social-icons.team-icons {
     bottom: 0px;

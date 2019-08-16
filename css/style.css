@@ -314,7 +314,8 @@ a.w3_agile_rss{
 .agile-baner-info-w3ls {
     padding-top: 15em;
     margin: 0 auto;
-    text-align: center;
+	text-align: center;
+	opacity: 0.75;
 }
 .agile-baner-info-w3ls h3 {
     text-align: center;

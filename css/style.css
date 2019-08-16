@@ -13,7 +13,7 @@ body{
 h1,h2,h3,h4,h5,h6{
 	color: #fb9902;
 	margin:0;	
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lora', serif;
 }	
 p{
 	margin:0;
@@ -322,20 +322,20 @@ a.w3_agile_rss{
     font-weight:400;
     letter-spacing: 16px;
     padding: 10px 0;
-	    margin: 2em 0 1.5em 0em;
+	margin: 2em 0 1.5em 0em;
 }
 .agile-baner-info-w3ls h3 span {
     color: #ff401b;
 }
 .agile-baner-info-w3ls p {
-        font-size: 1.1em;
+    font-size: 1.1em;
     font-weight: 300;
     letter-spacing: 12px;
     margin-top: 32px;
 	color:#fff;
 }
 .agile-baner-info-w3ls h1 {
-    font-family: 'UnifrakturMaguntia', cursive;
+    font-family: 'lora', serif;
     font-size: 8em;
     letter-spacing: 4px;
     margin-bottom: 0.4em;
@@ -783,7 +783,7 @@ text-align:center;
         font-size: 14px;
     letter-spacing: 1px;
     font-weight: 600;
-    color: #4b4d50;
+    color: #fff;
     padding-bottom: 10px;
 }
 .form-group {
@@ -808,7 +808,7 @@ text-align:center;
 }
 .contact-w3ls button.btn.btn-primary {
     color: #fff;
-    background: #101010;
+    background: #333;
     border: none;
     font-size: 17px;
     padding: 15px 20px;
@@ -941,7 +941,7 @@ ul.agileits_social_list.footer_icons_w3l li {
        color: #fff;
     border: 10px solid rgba(255, 255, 255, 0.25);
     padding: 3px 22px;
-    font-family: 'UnifrakturMaguntia', cursive;
+    font-family: 'Lora', serif;
     font-size: 5em;
     letter-spacing: 4px;
 }
@@ -954,13 +954,13 @@ ul.agileits_social_list.footer_icons_w3l li {
     letter-spacing: 1px;
 }
 .loc-left p {
-        color: #252d31;
+    color: #fff;
     font-size: 14.5px;
     letter-spacing: .6px;
     margin-bottom: 6px;
 }
 .loc-left p:nth-child(6) {
-    color: #000!important;
+    color: #fff!important;
 }
 .loc-left p a:hover {
     text-decoration: none;
@@ -971,7 +971,7 @@ ul.agileits_social_list.footer_icons_w3l li {
 }
 .loc-left p a {
     text-decoration: none;
-       color: #3be8b0;
+       color: #fff;
 }
 /*-- //footer --*/
 /*-- to-top --*/
@@ -1484,6 +1484,7 @@ ul.agileits_social_list.footer_icons_w3l li {
 	}
 	.loc-left {
 		padding: 0;
+		text-align: center;
 	}
 	.contact-agileits {
 		margin-bottom: 2em;
@@ -1646,6 +1647,7 @@ ul.agileits_social_list.footer_icons_w3l li {
 		padding: 0;
 		float: left;
 		width: 100%;
+		height: 250px;
 	}
 	.textbox h4 {
 		margin-top: 3.5em;

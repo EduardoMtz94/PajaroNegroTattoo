@@ -17,7 +17,7 @@
 }
 .ziehharmonika h3.active {
     margin-bottom: 21px;
-    background: #3be8b0;
+    background: #000;
     border: 6px solid rgba(44, 185, 139, 0.01);
 }
 .ziehharmonika h3::before {
@@ -27,7 +27,7 @@
 }
 .ziehharmonika > div {
 	display: none;
-	    background: #fff;
+	background: #000;
     border-radius: 0;
     border: 1px solid #cdcdcd;
     text-align: left;
